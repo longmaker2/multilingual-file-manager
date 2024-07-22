@@ -12,42 +12,42 @@ This is a Multilingual File Manager Application built using Node.js, Express, My
 ## Project Structure
 
 ```
-multilingual-file-manager/
-├── config/
-├── controllers/
-│ ├── fileController.js
-│ └── userController.js
-├── locales/
-│ ├── en.json
-│ └── fr.json
-├── migrations/
-│ ├── 20240716232651-create-user.js
-│ └── 20240716232652-create-file.js
-├── models/
-│ ├── index.js
-│ ├── user.js
-│ └── file.js
-├── node_modules/
-├── seeders/
-├── tests/
-│ ├── fileController/
-│ │ ├── createFile.test.js
-│ │ ├── deleteFile.test.js
-│ │ ├── getFileById.test.js
-│ │ ├── getFiles.test.js
-│ │ └── updateFile.test.js
-│ └── userController/
-│ ├── login.test.js
-│ └── register.test.js
-├── .gitignore
-├── app.js
-├── jest.config.js
-├── package.json
-├── package-lock.json
-├── queue.js
-├── routes.js
-├── worker.js
-└── README.md
+  multilingual-file-manager/
+  ├── config/
+  ├── controllers/
+  │ ├── fileController.js
+  │ └── userController.js
+  ├── locales/
+  │ ├── en.json
+  │ └── fr.json
+  ├── migrations/
+  │ ├── 20240716232651-create-user.js
+  │ └── 20240716232652-create-file.js
+  ├── models/
+  │ ├── index.js
+  │ ├── user.js
+  │ └── file.js
+  ├── node_modules/
+  ├── seeders/
+  ├── tests/
+  │ ├── fileController/
+  │ │ ├── createFile.test.js
+  │ │ ├── deleteFile.test.js
+  │ │ ├── getFileById.test.js
+  │ │ ├── getFiles.test.js
+  │ │ └── updateFile.test.js
+  │ └── userController/
+  │ ├── login.test.js
+  │ └── register.test.js
+  ├── .gitignore
+  ├── app.js
+  ├── jest.config.js
+  ├── package.json
+  ├── package-lock.json
+  ├── queue.js
+  ├── routes.js
+  ├── worker.js
+  └── README.md
 ```
 
 ## Prerequisites
