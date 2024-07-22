@@ -11,7 +11,7 @@ This is a Multilingual File Manager Application built using Node.js, Express, My
 
 ## Project Structure
 
-```
+```bash
   multilingual-file-manager/
   ├── config/
   ├── controllers/
