@@ -6,6 +6,7 @@ jest.mock('../../models', () => {
   return {
     File: {
       findByPk: jest.fn(),
+      destroy: jest.fn()
     }
   };
 });
@@ -31,6 +32,6 @@ describe('DELETE /api/files/:id', () => {
       .delete('/api/files/1')
       .expect(404);
 
-    expect(response.body).toEqual({ message: 'File not found' });
+    expect(response.body).toEqual({ message: 'File not found.' });
   });
 });

@@ -34,6 +34,6 @@ describe('PUT /api/files/:id', () => {
       .send({ name: 'updatedfile', size: 1024, type: 'txt', path: '/files/testfile.txt' })
       .expect(404);
 
-    expect(response.body).toEqual({ message: 'File not found' });
+    expect(response.body).toEqual({ message: 'File not found.' });
   });
 });

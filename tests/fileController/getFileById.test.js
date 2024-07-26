@@ -30,6 +30,6 @@ describe('GET /api/files/:id', () => {
       .get('/api/files/1')
       .expect(404);
 
-    expect(response.body).toEqual({ message: 'File not found' });
+    expect(response.body).toEqual({ message: 'File not found.' });
   });
 });
